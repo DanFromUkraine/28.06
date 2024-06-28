@@ -1,0 +1,50 @@
+header {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(14vh, auto);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: #0d0d0dbc;
+    color: white;
+    gap: 40px;
+  }
+  a {
+    color: white;
+  }
+  .header_menu,
+  .header_menu_list,
+  .auth-box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    text-decoration: none;
+  }
+  .auth-box {
+    justify-content: end;
+    padding-right: 20px;
+  }
+
+  .login, .logout {
+    border-radius: 10px;
+    padding: 8px 15px;
+    border: 1px solid red;
+  }
+  .login {
+    border: 1px solid green;
+  }
+  .auth-box img {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+  }
+  li {
+    list-style-type: none;
+    
+  }
+  a {
+    text-decoration: none;
+}
